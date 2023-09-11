@@ -71,8 +71,6 @@ export default function Home() {
     const password = getRandomPassword({ charList, passwordLength });
     setPassword(password);
 
-    console.log(password);
-
     const end = performance.now();
 
     const ms = end - start;
