@@ -2,17 +2,12 @@ import { PropsWithChildren } from 'react';
 
 import type { Metadata } from 'next';
 
-import { Inter, Space_Grotesk, Space_Mono, Work_Sans } from 'next/font/google';
+import { Space_Grotesk, Space_Mono, Work_Sans } from 'next/font/google';
 
 import { ThemeProvider } from '@/components/theme-provider';
 
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--inter',
-});
 
 const workSans = Work_Sans({
   subsets: ['latin'],
