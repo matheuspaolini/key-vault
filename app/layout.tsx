@@ -40,7 +40,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
       <body
         className={`${workSans.variable} ${spaceGrotesk.variable} ${spaceMono.variable}`}
       >
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <Toaster />
           {children}
         </ThemeProvider>
